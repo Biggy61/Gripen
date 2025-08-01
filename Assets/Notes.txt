@@ -1,0 +1,7 @@
+Camera - cockpit aby kamera neujizdela
+       - cockpit aby kdyz nemam freelook zaply aby se kamera vycentrovala
+       - freelook outside aby se to otacelo okolo letadla 
+
+Ground - nekonecne, generovani podle toho kam hrac leti
+
+Plane  - Vylepsit fyziku, thrust a drag, aby letadlo litaco jako bez gravitace 
