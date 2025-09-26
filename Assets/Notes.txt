@@ -3,5 +3,6 @@ Camera - cockpit aby kamera neujizdela
        - freelook outside aby se to otacelo okolo letadla 
 
 Ground - nekonecne, generovani podle toho kam hrac leti
+       - vegetace, stromy, hory, kopce
 
 Plane  - Vylepsit fyziku, thrust a drag, aby letadlo litaco jako bez gravitace 

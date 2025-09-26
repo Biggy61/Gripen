@@ -272,6 +272,7 @@ MonoBehaviour:
   gripen: {fileID: 2008482547}
   cockpit: {fileID: 1841253128}
   followOffset: {x: -17, y: 7, z: 0}
+  followSmooth: 5
   freeLookSpeed: 3
 --- !u!1 &410087039
 GameObject:
@@ -638,7 +639,7 @@ Transform:
   m_GameObject: {fileID: 1841253128}
   serializedVersion: 2
   m_LocalRotation: {x: -0.056102347, y: -0.7090879, z: 0.05664465, w: -0.7005985}
-  m_LocalPosition: {x: 3.6622744, y: 0.832, z: 0.0005865097}
+  m_LocalPosition: {x: 3.724, y: 0.867, z: 0.0005865097}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -710,7 +711,12 @@ MonoBehaviour:
   gripenScript: {fileID: 0}
   rollSpeed: 90
   pitchSpeed: 90
-  thrustForce: 1000
+  normalThrustPercent: 50
+  maxThrustPercent: 110
+  noThrustPercent: 0
+  thrustChangeSpeed: 50
+  maxThrustForce: 100
+  thrustForce: 0
   pitch: 0
   roll: 0
 --- !u!54 &2008482551
